@@ -39,7 +39,7 @@ int freq = 400, onTime = 500;
 int offTime[] = { 500, 300, 200, 70, 1 };  // Closer distance -> smaller off time
 long duration;                             // Duration of pulse
 float distance;                            // Measured distance
-float prox[] = { 50, 40, 30, 20, 10 };     // Important proximites that trigger the buzzer
+float prox[] = { 50, 40, 30, 20, 10 };     // Important proximites that trigger the buzzer, you can change them for your needs
 int numOfProx = sizeof(prox) / sizeof(prox[0]);
 void buzzerOn(int delayTime, int freq);  // Buzzer activation function
 bool isMuted = true;
